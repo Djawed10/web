@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-content > div {
+  width: 25%;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu li {
+  margin-bottom: 10px;
+}
+
+.footer-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social li {
+  margin-right: 10px;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+      .my-boton {
+  background-color: #1e86d0; 
+  color: rgb(255, 255, 255); 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 40px; 
+  cursor: pointer; 
+
+}
+
+.mon-bouton {
+  background-color: #e8e2e2;
+  color: rgb(73, 65, 65);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 40px;
+  text-decoration: none; /* Supprime le soulignement du lien */
+}
+
+.my-button {
+  background-color: #ffffff; 
+  color: rgb(255, 255, 255); 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 40px; 
+  cursor: pointer; 
+}
+
+        body, h1, h2, h3, p, ul, li, img {
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          font-family: Arial, sans-serif;
+          background-color: #ffffff;
+        }
+        
+        .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        
+        header {
+          
+          background-color: #ffffff;
+          color: #ffffff;
+          padding: 20px;
+          
+        }
+        
+        nav {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        
+        nav ul {
+          list-style-type: none;
+          display: flex;
+        }
+        
+        nav li {
+          margin-right: 30px;
+          padding: 5px;
+        }
+        
+        nav a {
+          color: #000000;
+          text-decoration: none;
+        }
+        
+        </style>
+      
+  <title>Ililias</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="https://www.ililias.fr/"><img src="data:image/png;base64,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" alt="iLilias" width="100px"></a>
+      <ul>
+        
+        <li>
+          <form>
+            <a href="https://www.ililias.fr/devenirPro" class="mon-bouton">Devenir Pro</a>
+
+            <a  href="https://www.ililias.fr/loginClient" class="my-boton" >Se connecter </a></form>
+        </li>
+      </ul>
+    </nav>
+    <nav>
+      <ul>
+        <li><li><a href="https://ililias.fr/reservation-menage">Menage</a></li>
+        <li><a href="https://ililias.fr/reservation-menage">Repassage</a></li>
+        <li><a href="https://ililias.fr/reservation-menage">Aide a domicile</a></li>
+         <li><a href="https://ililias.fr/reservation-menage">Montage de meubles</a></li>
+        <li><a href="https://ililias.fr/reservation-menage">Bricolage</a></li>
+        <li><a href="https://ililias.fr/reservation-menage">Travaux</a></li></li>
+      </ul>
+    </nav>
+
+
+    <div class="  flex w-full  ">
+      <img class="pt-4 flex w-full" srcset="https://ililias.fr/front/images/slider/slide-2.webp?auto=compress%2Cformat&amp;fit=crop&amp;h=242&amp;lossless=true&amp;w=363 1x, https://ililias.fr/front/images/slider/slide-2.webp?auto=compress%2Cformat&amp;fit=crop&amp;h=484&amp;lossless=true&amp;w=726 2x, https://ililias.fr/front/images/slider/slide-2.webp?auto=compress%2Cformat&amp;fit=crop&amp;h=726&amp;lossless=true&amp;w=1089 3x" src="https://ililias.fr/front/images/slider/slide-2.webp?auto=compress%2Cformat&amp;amp;fit=crop&amp;amp;h=242&amp;amp;lossless=true&amp;amp;w=363">
+  </div>
+
+
+  
+  </header>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Contenu du pied de page -->
+      </div>
+    </div>
+
+    <div class="footer-content">
+        <div>
+          <img src="logo.png" alt="Logo" class="footer-logo">
+          <ul class="footer-menu">
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>Adresse : 123 Rue, Ville, Pays</p>
+          <p>Téléphone : +123456789</p>
+          <p>Email : contact@example.com</p>
+        </div>
+        <div>
+          <h3>Suivez-nous</h3>
+          <ul class="footer-social">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Newsletter</h3>
+          <p>Inscrivez-vous à notre newsletter pour
+      
+  </footer>
+  
+
+  
+  
+</body>
+</html>
