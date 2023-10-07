@@ -1,0 +1,358 @@
+/* Appliquer un style à la section */
+.bg-blue-100 {
+  background-color: #f0f5ff; /* Remplacez cette couleur par la couleur de fond souhaitée */
+  padding: 20px; /* Espace autour de la section */
+}
+
+/* Appliquer un style aux éléments internes de la grille */
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.md\:grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Appliquer un style aux éléments de la grille individuels */
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hover\:shadow-xl:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Appliquer un style aux images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Appliquer un style aux éléments de texte */
+.text-bleu-600 {
+  color: #0077cc; /* Remplacez cette couleur par la couleur de texte souhaitée */
+}
+
+.font-medium {
+  font-weight: 500; /* Épaisseur de la police du texte */
+}
+
+/* Appliquer un style aux éléments de fond blanc */
+.bg-white {
+  background-color: #ffffff; /* Couleur de fond blanche */
+}
+
+/* Appliquer un style aux éléments arrondis */
+.rounded-t-lg {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.rounded-b-lg {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Appliquer un style aux éléments de lien */
+a {
+  text-decoration: none; /* Supprimer la soulignement des liens */
+  color: inherit; /* Utiliser la couleur par défaut du texte */
+}
+
+/* Appliquer un style au conteneur de flex */
+.flex {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement */
+}
+
+/* Ajouter de l'espace entre les éléments de la grille */
+.gap-x-2 {
+  column-gap: 0.5rem; /* Espacement horizontal */
+}
+
+.gap-y-4 {
+  row-gap: 1rem; /* Espacement vertical */
+}
+
+/* fin des css fenetres  */
+
+.h-12
+{
+  width: 10%;
+ 
+}
+
+
+.pt-4 {
+  width: 100%;
+}
+
+
+.h12 {
+  height: 3rem;
+}
+
+
+.b2 {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 15px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #828080,
+              -6px -6px 12px #ffffff;
+ }
+ 
+ .b2::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #47a6f9 0%, #47a6f9 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ .b2:hover::before {
+  width: 9em;
+ }
+
+
+
+html {
+
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+
+}
+html {
+
+    -moz-tab-size: 4;
+    tab-size: 4;
+
+}
+
+
+.w-full  {
+    color: #c41f1f;
+}
+
+.flex {
+    color: #000000;
+    justify-content: center;
+}
+
+                                     /* suuuuup */
+
+
+.relative {
+position: relative;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-content > div {
+  width: 25%;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu li {
+  margin-bottom: 10px;
+}
+
+.footer-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-social li {
+  margin-right: 10px;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+}
+
+                                     /* suuuuup */
+
+button {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #828080,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #47a6f9 0%, #47a6f9 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 9em;
+   }
+
+                                     /* suuuuup */
+
+
+   .b2 {
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #828080,
+                -6px -6px 12px #ffffff;
+   }
+   
+   .b2::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #47a6f9 0%, #47a6f9 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   .b2:hover::before {
+    width: 9em;
+   }
+
+                                      /* suuuuup */
+
+.my-button {
+  background-color: #ffffff; 
+  color: rgb(255, 255, 255); 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 40px; 
+  cursor: pointer; 
+}
+
+        body, h1, h2, h3, p, ul, li, img {
+          margin: 0;
+          padding: 0;
+        }
+
+        body {
+          
+          font-family: Arial, sans-serif;
+          background-color: #ffffff;
+        }
+        
+        .container {
+          max-width: 14000px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        
+        header {
+          
+          background-color: #ffffff;
+          color: #ffffff;
+          padding: 20px;
+          
+        }
+        
+        nav {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        
+        nav ul {
+          list-style-type: none;
+          display: flex;
+        
+  
+        }
+        
+        nav li {
+          margin-right: 30px;
+          padding: 5px;
+        }
+        
+        nav a {
+          color: #000000;
+          text-decoration: none;
+        }
+        .H2 {
+          text-align: center;
+          height: 50px;
+        }
+    
